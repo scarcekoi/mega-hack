@@ -37,7 +37,7 @@
 ## Usage
 
 > [!NOTE]
-> The **Mega Hack Themes** is a 3rd party mod, not owned by Catppuccin.
+> **Mega Hack Themes** is a 3rd party mod, not owned by Catppuccin.
 
 1. Download the flavor and accent combination of your choice from [themes](themes).
 2. Open Geometry Dash and navigate to **Geode menu** > **Download tab**.
