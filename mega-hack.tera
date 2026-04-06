@@ -1,0 +1,18 @@
+---
+whiskers:
+  version: "^2.9.0"
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/{{ flavor.identifier }}/Catppuccin {{ flavor.name }} {{ flavor.colors[accent].name }}.mhpalette"
+---
+{%- set accent = flavor.colors[accent] -%}
+{%- macro rgb(c) -%}
+"r": {{ c.rgb.r }}, "g": {{ c.rgb.g }}, "b": {{ c.rgb.b }}
+{%- endmacro rgb -%}
+{
+  "main-accent": { {{ self::rgb(c=accent) }} },
+  "background-accent": { {{ self::rgb(c=base) }} },
+  "tabtext-color": { {{ self::rgb(c=base) }} },
+  "light-mode": {{ flavor.light }}
+}

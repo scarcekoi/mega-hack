@@ -1,0 +1,6 @@
+{
+  "main-accent": { "r": 145, "g": 215, "b": 227 },
+  "background-accent": { "r": 36, "g": 39, "b": 58 },
+  "tabtext-color": { "r": 36, "g": 39, "b": 58 },
+  "light-mode": false
+}
