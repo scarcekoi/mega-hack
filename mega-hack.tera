@@ -4,7 +4,7 @@ whiskers:
   matrix:
     - flavor
     - accent
-  filename: "themes/{{ flavor.identifier }}/Catppuccin {{ flavor.name }} {{ flavor.colors[accent].name }}.mhpalette"
+  filename: "themes/{{ flavor.identifier }}/Catppuccin {{ flavor.identifier | capitalize }} {{ flavor.colors[accent].name }}.mhpalette"
 ---
 {%- set accent = flavor.colors[accent] -%}
 {%- macro rgb(c) -%}
