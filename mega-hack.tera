@@ -19,7 +19,7 @@ whiskers:
   "background-accent": {
     {{ self::rgb(c=base) }}
   },
-  "tabtext-color": {
+  "tabtext-accent": {
     {{ self::rgb(c=base) }}
   },
   "light-mode": {{ flavor.light }}
