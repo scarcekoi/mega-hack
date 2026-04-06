@@ -1,6 +1,18 @@
 {
-  "main-accent": { "r": 30, "g": 102, "b": 245 },
-  "background-accent": { "r": 239, "g": 241, "b": 245 },
-  "tabtext-color": { "r": 239, "g": 241, "b": 245 },
+  "main-accent": {
+    "r": 30,
+    "g": 102,
+    "b": 245
+  },
+  "background-accent": {
+    "r": 239,
+    "g": 241,
+    "b": 245
+  },
+  "tabtext-color": {
+    "r": 239,
+    "g": 241,
+    "b": 245
+  },
   "light-mode": true
 }
