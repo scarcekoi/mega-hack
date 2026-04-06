@@ -44,7 +44,7 @@
 3. Search for and install **Mega Hack Themes**, then restart the game.
 4. Go to the mod's settings page and open its config folder (folder + cog icon, bottom right).
 5. Place the downloaded file in the `savedPalettes` subfolder.
-6. Select **Load**, type **Catppuccin <Flavor> <Accent>** but replace <Flavor> and <Accent> with the chosen combination, and press enter.
+6. Select **Load**, type **Catppuccin <Flavor> <Accent>** but replace <Flavor> and <Accent> with the chosen combination, and press **Load**.
 7. Enjoy!
 
 ## 💝 Thanks to
